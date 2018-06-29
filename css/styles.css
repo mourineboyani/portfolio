@@ -2,6 +2,6 @@ h1 {
   color: green;
   text-align: center;
 }
-h2{
-  background-image
+body{
+  background-image: url(image/bg.jpeg);
 }
