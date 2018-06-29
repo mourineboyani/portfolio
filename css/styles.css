@@ -3,8 +3,10 @@ h1 {
   text-align: center;
 }
 body{
-  background-color: blue;
-  color: red;
+  background-color: green;
+  color: red
+  font-style: normal;
+  font-size: 20px;
 }
 
 .education
