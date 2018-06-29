@@ -3,5 +3,8 @@ h1 {
   text-align: center;
 }
 body{
-  background-image: url(image/bg.jpeg);
+  background-color: blue;
+  color: red;
 }
+
+.education
