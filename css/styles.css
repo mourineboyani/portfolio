@@ -1,10 +1,4 @@
-h1 {
-  color: green;
-  text-align: center;
-}
-body{
-  background-color: blue;
-  color: red;
-}
 
-.education
+.head{
+  background-image:url("https://i.pinimg.com/originals/cd/1c/c6/cd1cc6def84f4f8eebadb8d0848d2004.jpg");
+}
