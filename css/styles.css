@@ -89,7 +89,7 @@ text-align: center;
   background-size: cover;
   position: relative;
   padding: 10%;
-  background-image: url("https://images.unsplash.com/photo-1479669732031-affb2ce2d265?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf75bf69532f9d5cf35904fc7e18c010&w=1000&q=80");
+  background-image: /url("https:///images.unsplash.com/photo-1479669732031-affb2ce2d265?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf75bf69532f9d5cf35904fc7e18c010&w=1000&q=80");
 }
 #me{
   text-decoration-style: solid;
@@ -106,4 +106,50 @@ text-align: center;
 }
 #Contacts{
   text-align: center;
+}
+.skill{
+  background-image: url("https://images.unsplash.com/photo-1479669732031-affb2ce2d265?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf75bf69532f9d5cf35904fc7e18c010&w=1000&q=80");
+}
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ background color: #b3003b;
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  text-align: center;
+  font-size: 4.5em;
+  color: #b3003b;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
 }
