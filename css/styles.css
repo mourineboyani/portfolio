@@ -60,12 +60,7 @@ nav>ul>li>a:hover {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-<<<<<<< HEAD body {
-  background-color: green;
-  color: red font-style: normal;
-  font-size: 20px;
-  =======.hero-text button {
+.hero-text button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -92,7 +87,7 @@ nav>ul>li>a:hover {
     line-height: 1.5;
     font-size: 20px;
     align: center;
-    background-image: url("http://cdn01.wallconvert.com/_media/wallpapers_1920x1080/1/2/mans-silhouette-in-the-moonlight-14926.jpg");
+    background-image: url("https:///images.unsplash.com/photo-1479669732031-affb2ce2d265?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf75bf69532f9d5cf35904fc7e18c010&w=1000&q=80");
   }
   .skills {
     background-position: center;
@@ -202,7 +197,8 @@ body {
 
 .facebook:before,
 .twitter:before,
-.pinterest:before{
+.pinterest:before
+.github{
     content: '';
     width: 100%;
     height: 100%;
@@ -230,6 +226,7 @@ body {
 
 #p1:hover,
 #p2:hover,
-#p2:hover{
+#p2:hover,
+#p2:hover,{
     transform: rotate(360deg);
 }
