@@ -20,7 +20,7 @@ body {
   border-radius:150px;
 }
 #about {
-  padding: 5px;
+  padding:0px;
   text-decoration-style: solid;
   font-family: sans-serif;
   font-style: oblique;
