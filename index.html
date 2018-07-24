@@ -62,7 +62,7 @@
         <div class="card-body">
           <h1><u>SkILLS</u></h1>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6">
               <div class="well">
                 <div class="net">
                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiF1J8-Z6oyFApPGqFCbpblZRYyn5KWS5WZiA1mWB4T_bODeAGkg">
@@ -70,7 +70,7 @@
 
               </div>
             </div>
-            <div class="col-md-6 par">
+            <div class="col-sm-6">
               <p>Am a conscientious go-getter who is highly organized, dedicated, and committed to professionalism,am highly adaptable, mobile, positive, resilient, patient risk-taker who is open to new ideas.<br>Resourceful team player who excels at building
                 trust relationships with customers and colleagues.</br> To add to am Enthusiastic, knowledge-hungry learner, eager to meet challenges and quickly assimilate new concepts.</p>
               <p>Having gone through moringa i have acquired skills in regard to programming .the following is an outline of some of the skills acquired:</p>
@@ -88,14 +88,14 @@
         <div class="card-body">
           <h1><u>PROJECTS</u></h1>
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-sm-6">
               <div class="well">
                 <div class="net">
                   <img src="https://us.123rf.com/450wm/yurkina/yurkina1111/yurkina111100045/11125870-the-pile-of-the-color-books-insulated-on-white-.jpg?ver=6">
                 </div>
               </div>
             </div>
-            <div class="col-md-7 par">
+            <div class="col-sm-6">
               <p>For my final year in Universty ,i did a project where i had to create an online registration system for a polytechnic school</p>
               <p>Recently i have also worked on several projects and are available in my github.follow the link below to see the projects .some of them are listed below</p>
               <ul>
@@ -110,23 +110,42 @@
       </div>
     </div>
     <div class="Contacts" id="contacts">
-      <div class="Contacts" id="Contacts">
-        <h1><u>CONTACTS</u></h1>
-        <p>To reach me ,please get intouch through the contacts below .</p>
-        <p>for more inquiries, concerns or feedback please feel free to seek more information.</p>
-        <form action="/action_page.php">
-          <textarea name="message" rows="10" cols="30">.</textarea>
-          <br>
-          <input type="submit">
-        </form>
-        <div class="social_links">
-          <div class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-          <div class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-          <div class="icon pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
-          <div class="icon github"><i class="fa fa-github" aria-hidden="true"></i></div>
+      <div class="overlay">
+        <div class="container">
+          <div class="section-title center">
+            <h2>CONTACTS</h2>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div id="success"></div>
+              <button type="submit" class="btn btn-default">Send Message</button>
+            </form>
+            <div class="social_links">
+              <div class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+              <div class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+              <div class="icon pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
+              <div class="icon github"><i class="fa fa-github" aria-hidden="true"></i></div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 
 </body>
 
